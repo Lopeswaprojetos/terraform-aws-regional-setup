@@ -38,15 +38,19 @@ https://github.com/Lopeswaprojetos/terraform-aws-regional-setup.git
 **`DynamoDB Table (Opcional):`**Se estiver usando DynamoDB para locking, substitua o nome da tabela.
 
 **Inicialize o Terraform:**
+
  terraform init
 
-**Revise o plano de execução: Este comando mostrará o que será criado na AWS, permitindo que você revise e confirme antes de aplicar as mudanças.**
+**Revise o plano de execução:** Este comando mostrará o que será criado na AWS, permitindo que você revise e confirme antes de aplicar as mudanças.
+
  terraform plan
 
- **Aplique as mudanças: Confirme a execução e aguarde a criação dos recursos. O Terraform criará os recursos AWS nas regiões especificadas (us-east-1 e us-west-2), respeitando os limites do Free Tier.**
+ **Aplique as mudanças:** Confirme a execução e aguarde a criação dos recursos. O Terraform criará os recursos AWS nas regiões especificadas (us-east-1 e us-west-2), respeitando os limites do Free Tier.
+
  terraform apply
 
-**Limpeza dos Recursos: Para evitar quaisquer custos não previstos, certifique-se de destruir os recursos criados após o uso;comando removerá todos os recursos criados pelo Terraform.**
+**Limpeza dos Recursos:** Para evitar quaisquer custos não previstos, certifique-se de destruir os recursos criados após o uso;comando removerá todos os recursos criados pelo Terraform.
+
 terraform destroy
 
 
