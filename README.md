@@ -35,7 +35,7 @@ https://github.com/Lopeswaprojetos/terraform-aws-regional-setup.git
 ## Modifique os arquivos conforme necessário:
 **`S3 Bucket Names:`** Nos arquivos terraform_state.tf e services.tf, substitua os nomes dos buckets S3 (terraform-state-global, terraform-state-us-east-1, etc.) por nomes únicos de buckets na AWS.
 
-**`DynamoDB Table (Opcional):`**Se estiver usando DynamoDB para locking, substitua o nome da tabela.
+**`DynamoDB Table (Opcional):`** Se estiver usando DynamoDB para locking, substitua o nome da tabela.
 
 **Inicialize o Terraform:**
 
